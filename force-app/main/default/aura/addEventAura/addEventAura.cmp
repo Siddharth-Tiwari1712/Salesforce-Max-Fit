@@ -1,0 +1,5 @@
+<aura:component implements="lightning:actionOverride">
+    <c:addEvent/>
+</aura:component>
+
+<!-- //this is added to override new button action on salesforce and directly load our add event component -->
