@@ -113,3 +113,23 @@ export default class AddEvent extends NavigationMixin(LightningElement) {
         });
     }
 }
+
+// The UI Record API in Lightning Web Components (LWC) allows you to create, read, 
+// update, and delete records using simple JavaScript — no Apex required.
+
+// ✅ Key Features:
+// Works with Lightning Data Service (LDS)
+
+// Handles field-level security automatically
+
+// No Apex calls — performs CRUD operations natively
+
+// Great for use in record pages and quick actions
+
+// 🔹 Common UI Record API Functions:
+// Function	Purpose
+// getRecord	Read a record
+// getFieldValue	Extract field value from record
+// createRecord	Create a new record
+// updateRecord	Update existing record
+// deleteRecord	Delete a record
