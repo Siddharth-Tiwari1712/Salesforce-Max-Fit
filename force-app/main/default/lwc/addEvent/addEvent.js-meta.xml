@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>48.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Add Event Record</masterLabel>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+</LightningComponentBundle>
+
+<!-- standard__recordPage	Navigate to a specific record's page
+standard__objectPage	Navigate to an object’s list view
+standard__navItemPage	Navigate to a custom tab in an app
+standard__component	Navigate to a Lightning component (Aura)
+standard__webPage	Navigate to an external URL -->
