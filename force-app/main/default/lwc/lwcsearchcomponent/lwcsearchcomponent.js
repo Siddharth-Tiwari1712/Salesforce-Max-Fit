@@ -20,11 +20,11 @@ export default class Lwcsearchcomponent extends LightningElement {
   handleChange(event) {
     var keyword = event.target.value;
     /* Create & dispatch the event to parent component with the search keyword */
-    if (keyword && keyword.length >= 2) {
+    
       let searchEvent = new CustomEvent("search", {
         detail: { value: keyword }
-      });
+  });
       this.dispatchEvent(searchEvent);
-    }
+    
   }
 }
