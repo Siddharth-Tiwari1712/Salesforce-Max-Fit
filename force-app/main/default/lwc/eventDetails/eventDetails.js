@@ -138,6 +138,9 @@ export default class EventDetails extends NavigationMixin(LightningElement) {
   }
 
   // Pre-fills the Event__c lookup field with the current recordId.
+  // Uses the NavigationMixin.Navigate method to redirect to the standard Salesforce new record page for the EventSpeakers__c object.
+  // Passes the prepopulated field value (Event__c) via the URL's state parameter.
+
   createSpeaker() {
     const defaultValues = encodeDefaultFieldValues({
       Event__c: this.recordId

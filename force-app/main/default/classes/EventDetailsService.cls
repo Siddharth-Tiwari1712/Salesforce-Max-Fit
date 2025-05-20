@@ -1,14 +1,4 @@
-/**
- * @File Name          : EventDetailsService.cls
- * @Description        :
- * @Author             : A Singh
- * @Group              :
- * @Last Modified By   : A Singh
- * @Last Modified On   : 6/10/2020, 5:50:17 PM
- * @Modification Log   :
- * Ver       Date            Author      		    Modification
- * 1.0    6/8/2020   A Singh     Initial Version
- **/
+
 public with sharing class EventDetailsService {
   @AuraEnabled
   public static List<Event__c> upcomingEvents() {
